@@ -1,1 +1,1 @@
-# scheduleSearch v1.0.2 
+# scheduleSearch v1.0.4 
