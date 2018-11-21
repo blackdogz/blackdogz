@@ -1,8 +1,8 @@
 {
   "name": "@blackdogz/schedulesearch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
-  "main": "ischeduleSearch.tsx",
+  "main": "scheduleSearch.tsx",
   "scripts": {
     "test": "test"
   },
