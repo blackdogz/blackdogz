@@ -23,6 +23,8 @@ const huiyuan = require("../../../src/package/images/scheduleSearch/huiyuan.png"
 const lanxian = require("../../../src/package/images/scheduleSearch/lanxian.png");
 const lanyuan = require("../../../src/package/images/scheduleSearch/lanyuan.png");
 
+const sbh = require("../../../src/package/images/scheduleSearch/sbh.png");
+
 enum MType {
     Page,
     Head,
@@ -95,7 +97,7 @@ class MainModule extends React.Component<IMainProps, IMainState>{
                     <div class="content_right_box">
 
                         <div class="chushi">
-                            <img alt="" src={require("../../package/images/scheduleSearch/sbh.png")} />
+                            <img alt="" src={sbh} />
                         </div>
 
                         <div class="jindu">
