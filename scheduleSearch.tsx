@@ -1,27 +1,27 @@
 // 导入样式
 import "./scheduleSearch.less";
-import { BasePage, PageRegister } from "../../framework/component/page";
-import { ParseUrl } from "../../framework/basic/parseUrl";
-import { PageSource } from "../../framework/component/pageSource";
-import { Cookie } from "../../framework/basic/cookie";
-import { ReactDOM } from "../../framework/component/react-dom";
-import { React } from "../../framework/component/react";
-import { PageEvent, PageType } from "../../framework/component/pageEvent";
-import { Json } from "../../framework/basic/json";
-import { Focus } from "../../framework/component/focus";
-import { Key } from "../../framework/basic/key";
-import { HeaderModule } from "../../component/head/head";
-import { ToastModule } from '../../component/toast/toast';
-import { HElement } from '../../framework/basic/helement';
-import { KeyboardModule, InputModule, inputcookie } from '../../component/keyboard/keyboard';
-import { CommonLogic } from "../../logics/commonLogic";
-import { cityName } from "../../models/cityInfo";
+import { BasePage, PageRegister } from "../../../src/framework/component/page";
+import { ParseUrl } from "../../../src/framework/basic/parseUrl";
+import { PageSource } from "../../../src/framework/component/pageSource";
+import { Cookie } from "../../../src/framework/basic/cookie";
+import { ReactDOM } from "../../../src/framework/component/react-dom";
+import { React } from "../../../src/framework/component/react";
+import { PageEvent, PageType } from "../../../src/framework/component/pageEvent";
+import { Json } from "../../../src/framework/basic/json";
+import { Focus } from "../../../src/framework/component/focus";
+import { Key } from "../../../src/framework/basic/key";
+import { HeaderModule } from "../../../src/component/head/head";
+import { ToastModule } from '../../../src/component/toast/toast';
+import { HElement } from '../../../src/framework/basic/helement';
+import { KeyboardModule, InputModule, inputcookie } from '../../../src/component/keyboard/keyboard';
+import { CommonLogic } from "../../../src/logics/commonLogic";
+import { cityName } from "../../../src/models/cityInfo";
 
 
-const huixian = require("../../package/images/scheduleSearch/huixian.png");
-const huiyuan = require("../../package/images/scheduleSearch/huiyuan.png");
-const lanxian = require("../../package/images/scheduleSearch/lanxian.png");
-const lanyuan = require("../../package/images/scheduleSearch/lanyuan.png");
+const huixian = require("../../../src/package/images/scheduleSearch/huixian.png");
+const huiyuan = require("../../../src/package/images/scheduleSearch/huiyuan.png");
+const lanxian = require("../../../src/package/images/scheduleSearch/lanxian.png");
+const lanyuan = require("../../../src/package/images/scheduleSearch/lanyuan.png");
 
 enum MType {
     Page,
