@@ -1,0 +1,174 @@
+.model4keyBoard {
+    position: absolute;
+    width: 1240px;
+    height: 315px;
+    top: 390px;
+    z-index: 3;
+    background: #1b292f;
+    margin-left: 20px;
+    box-sizing: border-box;
+    border: 1px solid #18a1b2;
+    border-radius: 20px;
+    box-shadow: inset 0 0 30px #15484e;
+    .changeCap{
+        position: absolute;
+        z-index: 4;
+        top: 235px;
+        left: 200px;
+        font-size: 18px;
+        color: #18a1b2;
+        width: 100px;
+        font-weight: 600;
+    }
+    .kb_con {
+        position: absolute;
+        top: 15px;
+        width: 920px;
+        height: 292px;
+        border-radius: 10px;
+        overflow: hidden;
+        left: 186px;
+        .letter {
+            width: 65px;
+            height: 65px;
+            line-height: 65px;
+            text-align: center;
+            font-size: 32px;
+            color: #ffffff;
+            display: inline-block;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            font-weight: 600;
+            border: 1px solid #18a1b2;
+            border-radius: 20px;
+            box-shadow: inset 0 0 50px #15484e;
+            box-sizing: border-box;
+            &.focus{
+                background: #132dd7;
+            }
+            &.otherletter {
+                width: 211px;
+            }
+        }
+    }
+    &.small{
+        margin-left: 0px;
+        left: 450px;
+        width: 350px;
+        height: 250px;
+        top: 450px;
+        .kb_con_small{
+            position: absolute;
+            top: 15px;
+            width: 920px;
+            height: 292px;
+            border-radius: 10px;
+            overflow: hidden;
+            left: 186px;
+
+            height: 220px;
+            width: 292px;
+            left: 34px;
+            .letter{
+                width: 65px;
+                height: 65px;
+                line-height: 65px;
+                text-align: center;
+                font-size: 32px;
+                color: #ffffff;
+                display: inline-block;
+                margin-right: 8px;
+                margin-bottom: 8px;
+                font-weight: 600;
+                border: 1px solid #18a1b2;
+                border-radius: 20px;
+                box-shadow: inset 0 0 50px #15484e;
+                box-sizing: border-box;
+                &.focus{
+                    background: #132dd7;
+                }
+                &.otherletter {
+                    width: 211px;
+                }
+            }
+        }
+    }    
+}
+/*************************输入框样式start**********************/
+.model4inputinfo {
+    background: #1b292f;
+    position: absolute;
+    top: 100px;
+    width: 500px;
+    height: 230px;
+    margin-left: 390px;
+    color: #fff;
+    z-index: 3;
+    border: 1px solid #22737c;
+    border-radius: 20px;
+    box-shadow: inset 0 0 30px #15484e;
+}
+
+.m4inputinfo_header p {
+    line-height: 55px;
+    padding-left: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.m4inputinfo_main {
+    text-align: center;
+    padding-top: 20px;
+    height: 60px;
+}
+
+.m4inputinfo_main .m4inputinfo_input {
+    background: transparent;
+    display: block;
+    width: 440px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 30px;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 15px;
+    border-color: #1bb4e1;
+    box-shadow: 0 0 10px #ffffff;
+    overflow: hidden;
+}
+
+.m4inputinfo_footer {
+    padding-top: 8px;
+}
+
+.m4inputinfo_footer .div_primary {
+    color: #fff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 25px;
+    width: 150px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #18a1b2;
+    border-radius: 35px;
+    box-shadow: inset 0 0 50px #15484e;
+    background-color: #1c2328;
+    margin-top: 20px;
+}
+
+.m4inputinfo_footer .div_confirm {
+    float: left;
+    margin-left: 60px;
+}
+
+.m4inputinfo_footer .div_cancel {
+    float: right;
+    margin-right: 60px;
+}
+.div_primary.focus{
+    background: #132dd7;
+}
+/*************************输入框样式end**********************/
+
