@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blackdogz/blackdogz.git"
+    "url": "git+https://github.com/blackdogz/blackdogz/tree/master/keyboard.git"
   },
   "keywords": [
     "keyboard"
