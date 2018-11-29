@@ -1,0 +1,22 @@
+{
+  "name": "@blackdogz/mykeyboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackdogz/blackdogz.git"
+  },
+  "keywords": [
+    "keyboard"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackdogz/blackdogz/issues"
+  },
+  "homepage": "https://github.com/blackdogz/blackdogz#readme"
+}
